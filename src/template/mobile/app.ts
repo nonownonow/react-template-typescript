@@ -1,14 +1,10 @@
-import { mainNav } from './main-nav'
+import { appNav } from './app/app-nav'
+import { appHeader } from './app/app-header'
 
-export const myPage = {}
-export default function app(main: any) {
+export default function app(article: any) {
   return {
-    header: {
-      heading: 'wms',
-      myPage: '',
-    },
-    mainNav,
-
-    main,
+    header: appHeader,
+    nav: appNav,
+    main: article,
   }
 }

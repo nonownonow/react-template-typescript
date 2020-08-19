@@ -11,8 +11,8 @@ export const button = {
     id: 'submit',
     label: '전송',
   },
-  nav: {
-    id: 'nav',
+  mainNav: {
+    id: 'mainNav',
     label: '네비게이션',
     img: '',
   },

@@ -10,3 +10,5 @@ export enum EPickingType {
   DAS피킹 = 'das',
   문제피킹 = 'problom',
 }
+
+const map = [['멀티피킹', 'multi']]

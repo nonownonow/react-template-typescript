@@ -1,23 +1,11 @@
-export default function pickingJobForm() {
+import { progressBar } from './picking/ProgressBar'
+import { pickingFooterNav } from './picking/PickingFooterNav'
+
+export default function pickingJobForm(form: any) {
   return {
-    header: {
-      heading: '${job number}',
-    },
+    form,
     footer: {
-      subMenu: {
-        label: '',
-        ul: [
-          {
-            label: '작업정보',
-          },
-          {
-            label: '문제보고',
-          },
-          {
-            label: '토트 가득참',
-          },
-        ],
-      },
+      pickingJobNav: pickingFooterNav,
     },
   }
 }

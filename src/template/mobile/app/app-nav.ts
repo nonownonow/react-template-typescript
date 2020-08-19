@@ -1,22 +1,23 @@
-export const mainNav = {
-  button: {},
+import { button } from './button'
+
+export const appNav = {
+  button: button.mainNav,
   ul: [
     [
       {
         id: 'das',
         label: 'DAS피킹',
-        url: '',
       },
       [
         {
           id: 'auto',
           label: '자동배치',
-          url: '',
+          href: '',
         },
         {
           id: 'manual',
           label: '수동배치',
-          url: '',
+          href: '',
         },
       ],
     ],
@@ -24,18 +25,17 @@ export const mainNav = {
       {
         id: 'single',
         label: '싱글피킹',
-        url: '',
       },
       [
         {
           id: 'auto',
           label: '자동배치',
-          url: '',
+          href: '',
         },
         {
           id: 'manual',
           label: '수동배치',
-          url: '',
+          href: '',
         },
       ],
     ],
@@ -43,18 +43,17 @@ export const mainNav = {
       {
         id: 'issue',
         label: '문제피킹',
-        url: '',
       },
       [
         {
           id: 'auto',
           label: '자동배치',
-          url: '',
+          href: '',
         },
         {
           id: 'manual',
           label: '수동배치',
-          url: '',
+          href: '',
         },
       ],
     ],
