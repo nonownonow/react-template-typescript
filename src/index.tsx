@@ -1,16 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
-import App from './App'
+import 'destyle'
+import './index.scss'
+import App from './pages/App'
 import * as serviceWorker from './serviceWorker'
-import { Job, job } from './template/mobile/db/job'
-
-const myJob = new Job(job[0])
-myJob.fetchZone().then(() => {
-  console.log(myJob)
-  const time = myJob.elapsed
-  console.log(time / 1000 / 60)
-})
 ReactDOM.render(<App />, document.getElementById('root'))
 
 // If you want your app to work offline and load faster, you can change

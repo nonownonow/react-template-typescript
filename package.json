@@ -13,6 +13,7 @@
     "@types/react-dom": "^16.9.0",
     "@types/react-router-dom": "^5.1.5",
     "@types/styled-jsx": "^2.2.8",
+    "destyle": "^1.1.4",
     "fxjs2": "^0.16.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -26,7 +27,9 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,9 +40,18 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-knobs": "^5.3.18",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addon-storysource": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/preset-create-react-app": "^3.0.0",
+    "@storybook/react": "^5.3.19",
     "customize-cra": "^1.0.0",
+    "node-sass": "^4.14.1",
     "prettier": "2.0.5",
     "react-app-rewired": "^2.1.6",
+    "styled-jsx-plugin-sass": "^1.0.0",
     "ts-node": "^8.10.2"
   }
 }

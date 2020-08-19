@@ -1,4 +1,4 @@
-import { dateToString } from '../../util'
+import { dateToString } from '../../utils'
 
 export default function pickingJob(job: any, zone: any) {
   return {

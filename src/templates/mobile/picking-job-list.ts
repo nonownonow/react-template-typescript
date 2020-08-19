@@ -1,6 +1,6 @@
 import { button } from './app/button'
 import picking from './picking'
-import { dateToString } from '../../util'
+import { dateToString } from '../../utils'
 
 export default function pickingJobList(job: any, zone: any) {
   return picking({
